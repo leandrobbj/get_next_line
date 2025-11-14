@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbraga <lbraga@student.42lisboa.com>       +#+  +:+       +#+        */
+/*   By: lbraga <lbraga@student.42lisboa.com>>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/23 12:07:55 by lbraga            #+#    #+#             */
-/*   Updated: 2025/11/06 20:32:02 by lbraga           ###   ########.fr       */
+/*   Updated: 2025/11/14 18:36:38 by lbraga           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,9 @@ char	*get_next_line(int fd)
 		return (NULL);
 	line[0] = '\0';
 	if (*buffer)
-	{
 		join_free_line(&line, buffer);
-		if (!line)
-			return (NULL);
-	}
+	if (!line)
+		return (NULL);
 	find_line(fd, &line, buffer);
 	if (!line)
 		return (NULL);
