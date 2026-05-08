@@ -1,4 +1,4 @@
-# Get Next Line &nbsp;![language](https://img.shields.io/badge/language-444444?style=flat-square&logo=c&labelColor=555555) ![makefile](https://img.shields.io/badge/make-444444?style=flat-square&logo=monster&logoColor=goldenrod&labelColor=555555) ![42](https://img.shields.io/badge/lisboa-444444?style=flat-square&logo=42&logoColor=white&labelColor=555555)
+# Get Next Line &nbsp;![language](https://img.shields.io/badge/language-444444?style=flat-square&logo=c&labelColor=555555) ![makefile](https://img.shields.io/badge/make-444444?style=flat-square&logo=monster&logoColor=goldenrod&labelColor=555555) ![42](https://img.shields.io/badge/lisboa-444444?style=flat-square&logo=42&logoColor=black&labelColor=777777)
 
 *This project has been created as part of the 42 curriculum by lbraga.*
 
