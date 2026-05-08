@@ -1,8 +1,8 @@
-# Get Next Line &nbsp;![language](https://img.shields.io/badge/language-444444?style=flat-square&logo=c&labelColor=555555) ![makefile](https://img.shields.io/badge/make-444444?style=flat-square&logo=monster&logoColor=goldenrod&labelColor=555555)
+# Get Next Line &nbsp;![language](https://img.shields.io/badge/language-444444?style=flat-square&logo=c&labelColor=555555) ![makefile](https://img.shields.io/badge/make-444444?style=flat-square&logo=monster&logoColor=goldenrod&labelColor=555555) ![42](https://img.shields.io/badge/lisboa-444444?style=flat-square&logo=42&logoColor=white&labelColor=555555)
 
 *This project has been created as part of the 42 curriculum by lbraga.*
 
-`get_next_line` reads a text file from a file descriptor, one line at a time, until the end of the file is reached. The goal is to return the next available line on each call while keeping any unread data available for the next invocation. This project introduces the use of **static variables** in C to preserve state between function calls.
+**Get_Next_Line** reads a text file from a file descriptor, one line at a time, until the end of the file is reached. The goal is to return the next available line on each call while keeping any unread data available for the next invocation. This project introduces the use of **static variables** in C to preserve state between function calls.
 
 1. [Algorithm](#algorithm)
 2. [Instructions](#instructions)
@@ -45,10 +45,12 @@ The project must be compiled with the `-D BUFFER_SIZE=n` flag to define the buff
 
 ##  AI Disclosure
 
-In accordance with the 42 curriculum guidelines, I integrated AI tools into my development workflow for the get_next_line project, focusing on enhancing my understanding of fundamental concepts such as static variables and file descriptor management and summarize the behavior of the function `read()`.
+In accordance with the 42 curriculum guidelines,  AI tools focusing help my understanding of fundamental concepts such as static variables and file descriptor management and summarize the behavior of the function `read()`.
 
 The AI also helped with test development to identify potential logic bugs and edge cases during the implementation of complex functions, and supported the organization and formatting of project configuration files.
 
 ## Final Notes
 
-Developing get_next_line was a significant challenge that introduced me to the power of static variables for data persistence. Using a fixed-size buffer allowed for an efficient algorithm that minimizes memory fragmentation and prevents leaks. This project also taught me to manage dynamic line growth and file descriptors, ensuring that every call reads only what is necessary to return a complete line. Ultimately, it was about building a deeper understanding of memory and logic to create a robust tool for my future projects at 42.
+Developing get_next_line was a significant challenge that introduced me to the power of static variables for data persistence. Using a fixed-size buffer allowed for an efficient algorithm that minimizes memory fragmentation and prevents leaks. 
+
+This project also taught me to manage dynamic line growth and file descriptors, ensuring that every call reads only what is necessary to return a complete line. Ultimately, it was about building a deeper understanding of memory and logic to create a robust tool for my future projects at 42.
