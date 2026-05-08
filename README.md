@@ -12,7 +12,7 @@
 
 ## Algorithm
 
-The core of the algorithm is a static `char buffer[BUFFER_SIZE + 1]`. Because it is static, it works as a cache that stores any leftover data read from a file descriptor that was not part of the previously returned line. 
+The core of the algorithm is a static `char buffer[BUFFER_SIZE + 1]`. Static works as a cache that stores any leftover data read from a file descriptor that was not part of the previously returned line. 
 
 ### Algorithm Flow
 
