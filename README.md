@@ -40,7 +40,7 @@ The project must be compiled with the `-D BUFFER_SIZE=n` flag to define the buff
 ## Resources
 
 * [CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science) - Harvard University's lectures on C programming, memory management, and algorithms.
-* [Linux Programmer's Manual (man pages)](https://man7.org/linux/man-pages/) - Specifically for read.
+* [read(2) - Linux manual page](https://man7.org/linux/man-pages/man2/read.2.html) - Documentation on the behavior and specifications of the `read()` function.
 * [Norminette Documentation](https://github.com/42School/norminette) - Helpful for ensuring the code follows the school's coding standards.
 
 ##  AI Disclosure
